@@ -113,3 +113,9 @@ html, body {
 .footer {
   padding: 15px;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 0 10px;
+  }
+}
