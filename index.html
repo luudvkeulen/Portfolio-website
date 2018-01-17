@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Luud van Keulen</title><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css"><link href="styles.ae41756e03b364dde052.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script>document.addEventListener('DOMContentLoaded', function () {
+
+    // Get all "navbar-burger" elements
+    let navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if (navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      navbarBurgers.forEach(function ($el) {
+        $el.addEventListener('click', function () {
+
+          // Get the target from the "data-target" attribute
+          let target = $el.dataset.target;
+          let $target = document.getElementById(target);
+
+          // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+          $el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+  });</script><script type="text/javascript" src="inline.aac9bf9665e3db94e9ca.bundle.js"></script><script type="text/javascript" src="polyfills.35726d60cdf25fecc5f1.bundle.js"></script><script type="text/javascript" src="vendor.4ec6f75eb1fd6ed6bd56.bundle.js"></script><script type="text/javascript" src="main.ea53e2dbd84f25f71047.bundle.js"></script></body></html>
